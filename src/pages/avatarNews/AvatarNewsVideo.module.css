@@ -1,0 +1,30 @@
+.avatarNewsVideoContainer {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: rgb(37, 105, 241);
+  background: radial-gradient(
+    circle,
+    rgba(37, 105, 241, 0.1) 55%,
+    rgba(0, 212, 255, 0.1) 100%
+  );
+}
+
+.videoWrapper {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.videoWrapper video {
+  display: block;
+  margin: auto;
+  width: 854px;
+  height: 480px;
+}
+
+@media screen and (max-width: 1340px) {
+    .videoWrapper video {
+      width: 640px;
+      height: 360px;
+    }
+  
+  }

@@ -1,0 +1,74 @@
+.navbar {
+    background: #003366;
+    height: 50px;
+  }
+
+  /* navbar */
+.navbar nav {
+    /* padding: 20px; */
+    padding-top: 5px;
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .navbar nav h1 {
+    border-bottom: 3px solid red;
+    margin: 0;
+  }
+
+  .navbar nav a{
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+    color: white;
+    user-select: none;
+  }
+  
+  .logoutButton{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    user-select: none;
+    font-size: 1rem;
+    background: none;
+  }
+  
+
+  .navbar nav .logo {
+    margin-right: auto;
+    padding: 0;
+  }
+
+
+  .navbar a:hover {
+    /* color: silver; */
+       
+     opacity: 0.6;
+  }
+
+
+
+  .navbar a.active {
+    opacity: 1;
+    font-weight: 500;
+    background: white;
+    color: #003366;;
+  }
+
+  .logoutButton:hover{
+    background: yellow;
+    opacity: 0.6;
+    color: silver;
+  }
+   
+
+.navbar nav .logo:hover {
+  /* color: silver; */
+  opacity: 0.9;
+  
+  
+}
